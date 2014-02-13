@@ -1,0 +1,28 @@
+{
+  "name": "buffer-stream-reader",
+  "version": "0.1.0",
+  "description": "Naive node.js buffer stream reader",
+  "main": "reader.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/harrisiirak/buffer-stream-reader.git"
+  },
+  "devDependencies": {
+    "must": "~0.11.0",
+    "mocha": "~1.17.1"
+  },
+  "keywords": [
+    "buffer",
+    "reader",
+    "stream"
+  ],
+  "author": "Harri Siirak <harri.siirak@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harrisiirak/buffer-stream-reader/issues"
+  },
+  "homepage": "https://github.com/harrisiirak/buffer-stream-reader"
+}
